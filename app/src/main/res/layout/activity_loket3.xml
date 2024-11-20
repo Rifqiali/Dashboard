@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    tools:context=".Loket3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="16dp">
+
+        <!-- Penerbitan KTP Elektronik -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Penerbitan KTP Elektronik"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <!-- Buttons for Penerbitan KTP Elektronik -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btn_ktp_persyaratan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Persyaratan"
+                android:backgroundTint="@color/purple"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_ktp_booking"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Booking"
+                android:backgroundTint="@color/teal"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <!-- Penerbitan KK -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Penerbitan KK"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <!-- Buttons for Penerbitan KK -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btn_kk_persyaratan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Persyaratan"
+                android:backgroundTint="@color/purple"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_kk_booking"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Booking"
+                android:backgroundTint="@color/teal"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <!-- Perekaman KTP Elektronik -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perekaman KTP Elektronik"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <!-- Buttons for Perekaman KTP Elektronik -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btn_perekaman_ktp_persyaratan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Persyaratan"
+                android:backgroundTint="@color/purple"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_perekaman_ktp_booking"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Booking"
+                android:backgroundTint="@color/teal"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <!-- Surat Pindah / SKPWNI -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Surat Pindah / SKPWNI"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <!-- Buttons for Surat Pindah -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btn_skpwni_persyaratan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Persyaratan"
+                android:backgroundTint="@color/purple"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_skpwni_booking"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Booking"
+                android:backgroundTint="@color/teal"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <!-- Kartu Identitas Anak -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kartu Identitas Anak"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <!-- Buttons for Kartu Identitas Anak -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btn_kia_persyaratan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Persyaratan"
+                android:backgroundTint="@color/purple"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_kia_booking"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Booking"
+                android:backgroundTint="@color/teal"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <!-- Akta Kelahiran -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Akta Kelahiran"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <!-- Buttons for Akta Kelahiran -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btn_akta_lahir_persyaratan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Persyaratan"
+                android:backgroundTint="@color/purple"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_akta_lahir_booking"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Booking"
+                android:backgroundTint="@color/teal"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <!-- Akta Kematian -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Akta Kematian"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <!-- Buttons for Akta Kematian -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btn_akta_mati_persyaratan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Persyaratan"
+                android:backgroundTint="@color/purple"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_akta_mati_booking"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Booking"
+                android:backgroundTint="@color/teal"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <!-- Akta Nikah Non Muslim -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Akta Nikah Non Muslim"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <!-- Buttons for Akta Nikah Non Muslim -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btn_akta_nikah_persyaratan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Persyaratan"
+                android:backgroundTint="@color/purple"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_akta_nikah_booking"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Booking"
+                android:backgroundTint="@color/teal"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

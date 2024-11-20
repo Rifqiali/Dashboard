@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    tools:context=".Loket1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="16dp">
+
+        <!-- Pengajuan SPP Klaim -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pengajuan SPP Klaim"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <!-- Buttons for SPP Klaim -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btn_spp_persyaratan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Persyaratan"
+                android:backgroundTint="@color/purple"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_spp_booking"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Booking"
+                android:backgroundTint="@color/teal"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <!-- Pengajuan Mutasi Pensiun -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pengajuan Mutasi Pensiun"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <!-- Buttons for Mutasi Pensiun -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btn_mutasi_persyaratan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Persyaratan"
+                android:backgroundTint="@color/purple"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_mutasi_booking"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Booking"
+                android:backgroundTint="@color/teal"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <!-- Pengajuan JKK/JKM -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pengajuan JKK/JKM"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <!-- Buttons for JKK/JKM -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btn_jkk_persyaratan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Persyaratan"
+                android:backgroundTint="@color/purple"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_jkk_booking"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Booking"
+                android:backgroundTint="@color/teal"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <!-- Informasi Ketaspenan -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Informasi Ketaspenan"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <!-- Buttons for Informasi Ketaspenan -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btn_ketaspenan_persyaratan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Persyaratan"
+                android:backgroundTint="@color/purple"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_ketaspenan_booking"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Booking"
+                android:backgroundTint="@color/teal"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <!-- Pengajuan Usul/Ralat SK/Pensiunan Janda/Duda/YP -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pengajuan Usul/Ralat SK/Pensiunan Janda/Duda/YP"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <!-- Buttons for Usul/Ralat SK -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btn_usul_persyaratan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Persyaratan"
+                android:backgroundTint="@color/purple"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_usul_booking"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Booking"
+                android:backgroundTint="@color/teal"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
